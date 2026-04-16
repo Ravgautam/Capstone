@@ -377,3 +377,29 @@ ironforge-gym/
 ├── server.js                # Express application entry point
 └── web.config               # IIS configuration file
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:: If the file exists, manually register the module
+"%systemroot%\system32\inetsrv\appcmd" install module /name:"iisnode" /image:"C:\Program Files\iisnode\iisnode.dll"
